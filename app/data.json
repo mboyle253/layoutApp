@@ -1,0 +1,193 @@
+{
+  "success": true,
+  "message": null,
+  "model": {
+    "modelId": null,
+    "projectId": 2,
+    "projectIdPrefix": "Palamida-Project-2",
+    "projectName": "Melissa Project",
+    "projectOwner": "Melissa Boyle",
+    "isProjectOwner": true,
+    "ownerEmail": "mboyle253@gmail.com",
+    "projectDesc": null,
+    "serverId": 2,
+    "serverName": "Server1",
+    "selectedPaths": [
+      {
+        "serverId": 2,
+        "serverName": "Server1",
+        "path": "C:\\palamida\\ePortal-1.3-copy"
+      }
+    ],
+    "requests": 0,
+    "tasks": 0,
+    "inventoryCount": 0,
+    "policyFilters": [
+      {
+        "filterId": "ALLSEVERITY",
+        "filterName": "ALL"
+      },
+      {
+        "filterId": "FAILURE",
+        "filterName": "FAILURE"
+      },
+      {
+        "filterId": "WARNING",
+        "filterName": "WARNING"
+      },
+      {
+        "filterId": "INFO",
+        "filterName": "INFO"
+      }
+    ],
+    "fileId": false,
+    "defaultFilter": "ALL",
+    "numFiles": 0,
+    "evidenceDetails": [],
+    "scanProfile": {
+      "modelId": null,
+      "profileId": "1",
+      "profileName": "Standard Scan Profile",
+      "sourceScanningEnabled": false,
+      "searchTerms": [
+        " gpl",
+        " lgpl",
+        "Agpl",
+        "Aladdin",
+        "Copyleft",
+        "Ffmpeg",
+        "Ghostscript",
+        "MODULE_LICENSE",
+        "That is not my code",
+        "This is not my code",
+        "affero",
+        "artifex",
+        "artistic",
+        "berkeley db",
+        "berkeleydb",
+        "berkley db",
+        "busybox",
+        "cc-by",
+        "cc-by-nc",
+        "cc-by-sa",
+        "free software",
+        "general public",
+        "gnu gpl",
+        "gnu lgpl",
+        "gpl ",
+        "itext",
+        "lgpl ",
+        "public license",
+        "same terms as Perl",
+        "sharealike",
+        "sleepy",
+        "sleepycat",
+        "special exception",
+        "stackoverflow"
+      ],
+      "isDefault": true,
+      "runAnalyzers": true
+    },
+    "createdDate": "07/13/2017",
+    "lastUpdatedDate": null,
+    "lastScanDate": "07/14/2017",
+    "folder": {
+      "modelId": null,
+      "folderId": "Palamida-Folder-1",
+      "folderName": "None",
+      "parentId": 0,
+      "children": null
+    },
+    "auditProgress": {
+      "modelId": null,
+      "percent": 57,
+      "scannedFiles": 76,
+      "inventoryItems": 18,
+      "reviewedFilesWithEvidenceCount": 23,
+      "filesWithEvidenceCount": 40
+    },
+    "policy": {
+      "modelId": null,
+      "policyId": "NOPOLICY",
+      "name": "No profile selected"
+    },
+    "projectPermissions": [
+      "edit_permissions"
+    ],
+    "autoPublish": true,
+    "autoMarkReviewed": true,
+    "priorityMap": {
+      "P1": 0,
+      "P2": 0,
+      "P3": 18,
+      "P4": 0
+    },
+    "statusMap": {
+      "Not Reviewed": 18
+    },
+    "cveMap": {
+      "No CVEs": 14,
+      "CVEs": 4
+    },
+    "priorityValues": [
+      {
+        "id": 1,
+        "type": "INVENTORY_PRIORITY",
+        "name": "P1",
+        "description": "High",
+        "isDefault": false
+      },
+      {
+        "id": 2,
+        "type": "INVENTORY_PRIORITY",
+        "name": "P2",
+        "description": "Medium",
+        "isDefault": false
+      },
+      {
+        "id": 3,
+        "type": "INVENTORY_PRIORITY",
+        "name": "P3",
+        "description": "Low",
+        "isDefault": true
+      },
+      {
+        "id": 8,
+        "type": "INVENTORY_PRIORITY",
+        "name": "P4",
+        "description": "Other",
+        "isDefault": false
+      }
+    ],
+    "filesWithEvidenceCount": 0,
+    "reviewedFilesWithEvidenceCount": 0,
+    "scanProgress": {
+      "modelId": null,
+      "scanInProgress": false,
+      "scanTaskProgress": "NOT_RUNNING",
+      "taskState": null,
+      "lastScanMsg": "Scan of project Melissa Project completed",
+      "scanProgressTotal": null,
+      "scanProgressCompleted": null,
+      "progressMsg": "No task in progress)",
+      "scanSummaryModel": {
+        "modelId": null,
+        "totalFiles": 76,
+        "totalSize": 16278069,
+        "totalLines": 10083,
+        "hasCompletedScan": true,
+        "fileCount": {
+          "cpp": 5,
+          "java": 5,
+          "gzip tar": 1,
+          "no extension": 3,
+          "jar": 9,
+          "javascript": 9,
+          "Other": 44
+        }
+      },
+      "projectsInScanQueue": null
+    },
+    "exists": true
+  }
+}
